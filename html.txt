@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEP Tech General Contracting LLC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#enquiry">Enquiry</a></li>
+                <li><a href="#career">Career</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to MEP Tech General Contracting LLC</h1>
+        <p>Your reliable partner in MEP solutions.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <p>Showcase your completed projects here.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Detail the services you offer here.</p>
+    </section>
+    
+    <section id="enquiry">
+        <h2>Enquiry</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="career">
+        <h2>Career Opportunities</h2>
+        <p>Information on current job openings.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Contact information and location.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 MEP Tech General Contracting LLC</p>
+    </footer>
+</body>
+</html>
